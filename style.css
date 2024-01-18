@@ -1,0 +1,52 @@
+body {
+  background-color: #58378c;
+  color: #fefefe;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1,
+h2 {
+  background-color: #6c3c9d;
+  width: 400px;
+  padding: 8px;
+  border-radius: 8px;
+  color: #fefefe;
+}
+button {
+  background-color: #ef7d19;
+  color: #fefefe;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+button:hover {
+  background-color: hsl(28, 87%, 40%);
+}
+
+input {
+  padding: 8px;
+}
+
+textarea {
+  padding: 8px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  gap: 8px;
+}
+.postagem {
+  background-color: #6c3c9d;
+  width: 400px;
+  border-radius: 8px;
+  padding: 7px 12px;
+  margin-bottom: 16px;
+}
